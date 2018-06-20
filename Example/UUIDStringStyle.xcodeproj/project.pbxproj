@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15DAE4850FA4F35D2CD9C837 /* UUIDStringStyle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = UUIDStringStyle.podspec; path = ../UUIDStringStyle.podspec; sourceTree = "<group>"; };
-		4122366190FB33D3BD945C42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15DAE4850FA4F35D2CD9C837 /* UUIDStringStyle.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UUIDStringStyle.podspec; path = ../UUIDStringStyle.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4122366190FB33D3BD945C42 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		42DB1750B1C6C89AFB19C35A /* Pods-UUIDStringStyle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDStringStyle_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDStringStyle_Tests/Pods-UUIDStringStyle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* UUIDStringStyle_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUIDStringStyle_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		8358DF98D642CB5C1DE679B1 /* Pods_UUIDStringStyle_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUIDStringStyle_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84396FEB4A26B23784495BCD /* Pods-UUIDStringStyle_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDStringStyle_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDStringStyle_Example/Pods-UUIDStringStyle_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8AF504CAAD742798BA1843C8 /* Pods-UUIDStringStyle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDStringStyle_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDStringStyle_Tests/Pods-UUIDStringStyle_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8D86EFCF4CE6DEC5CB63FAB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8D86EFCF4CE6DEC5CB63FAB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A9F2F07D695B3A0CB813856E /* Pods_UUIDStringStyle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UUIDStringStyle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87B2D7624A318D8D51D7603 /* Pods-UUIDStringStyle_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUIDStringStyle_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UUIDStringStyle_Example/Pods-UUIDStringStyle_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,7 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -377,12 +377,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -430,12 +432,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
