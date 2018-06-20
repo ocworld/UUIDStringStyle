@@ -31,7 +31,7 @@ pod 'UUIDStringStyle'
 
 ## Author
 
-ocworld, ocworld@gmail.com
+Keunhyun Oh, ocworld@gmail.com
 
 ## License
 
