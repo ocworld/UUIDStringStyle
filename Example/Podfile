@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UUIDStringStyle_Example' do
+  pod 'UUIDStringStyle', :path => '../'
+
+  target 'UUIDStringStyle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
