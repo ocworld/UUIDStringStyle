@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UUIDStringStyle'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'uuidString의 Style을 지정하고 변경할 수 있는 기능을 제공합니다.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ urn: urn:uuid:E756CC57-F606-4FD0-8923-CD328F3BC68F
   s.source           = { :git => 'https://github.com/ocworld/UUIDStringStyle.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'UUIDStringStyle/Sources/**/*'
   
