@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UUIDStringStyle'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'uuidString의 Style을 지정하고 변경할 수 있는 기능을 제공합니다.'
 
 # This description is used to generate tags and improve search results.
